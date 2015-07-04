@@ -27,7 +27,9 @@ libraryDependencies ++= Seq(
   "com.intellij" % "annotations" % "12.0",
   "com.typesafe.scala-logging" %% "scala-logging" % "3.1.0",
   "org.json" % "json" % "20131018",
-  "org.scalaz" %% "scalaz-core" % "7.2.0-M1"
+  "org.scalaz" %% "scalaz-core" % "7.2.0-M1",
+  "org.joda" % "joda-convert" % "1.6",
+  "joda-time" % "joda-time" % "2.3"
 )
 
 // Test dependencies.
