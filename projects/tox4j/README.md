@@ -129,3 +129,9 @@ sources directory in "File > Project Structure".
 
 If SBT project import fails, try importing the IDEA modules from
 `project/idea-modules`.
+
+If cmake cannot find the JNI headers, but you have a Java JDK installed, you
+might need to export its path as JAVA_HOME if it's in (what cmake considers) a
+non-standard location.  This path should have "bin/" "include/" "jre/" and
+"lib/" subdirectories.
+Example: export JAVA_HOME=/usr/lib/jvm/java-7-openjdk/
